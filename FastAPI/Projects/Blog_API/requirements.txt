@@ -1,0 +1,7 @@
+# requirements.txt
+fastapi
+uvicorn
+sqlalchemy
+passlib[argon2]  # Specify the hashing scheme you are using
+python-jose[cryptography] # JWT library with cryptography support
+python-dotenv    # For reading the .env file
